@@ -1,16 +1,17 @@
 Package: sm2data
-Title: What the Package Does (One Line, Title Case)
+Title: Datasets for Statistical Modelling 
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+   c(person("Tahani", "Coolen-Maturi", email = "tahani.maturi@durham.ac.uk", role = "cre"), 
+    person("Jochen", "Einbeck", email = "jochen.einbeck@durham.ac.uk", role = "aut")) 
+Description: A collection of datasets for Statistical Modelling practicals run by the
+	     Department of Mathematical Sciences at Durham University.
+License: MIT + file LICENSE 
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+Imports: 
+    tibble
