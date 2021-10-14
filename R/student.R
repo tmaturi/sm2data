@@ -5,7 +5,7 @@
 #' data(student)
 #' @format A dataframe with 43 rows and 8 variables:
 #' \describe{
-#'   \item{gender}{numeric	gender coded as 1 or 0}
+#'   \item{gender}{gender coded as 1 or 0}
 #'   \item{height}{height}
 #'   \item{stone}{stone}
 #'   \item{lb}{lb}
