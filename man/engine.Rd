@@ -3,21 +3,22 @@
 \docType{data}
 \name{engine}
 \alias{engine}
-\title{Data of engine}
+\title{Engine data}
 \format{
-A dataframe with 127 rows and 4 variables:
+A dataframe with 46 rows and 3 variables:
 \describe{
-\item{lat}{latitude at which scallops were collected}
-\item{long}{longitude at which scallops were collected}
+\item{CO}{carbon monoxide}
+\item{HC}{hydrocarbons}
+\item{NOX}{nitrogen oxides}
 }
 }
 \source{
-\url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
+Prof Jochen Einbeck
 }
 \usage{
-engine
+data(engine)
 }
 \description{
-Add some text here
+Add description here
 }
 \keyword{datasets}

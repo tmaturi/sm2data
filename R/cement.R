@@ -1,11 +1,15 @@
-#' Data of Cement 
+#' Cement data
 #'
-#' Add sometext here
-#'
-#' @format A dataframe with 127 rows and 4 variables:
+#' The data  are from an experiment on the tensile strength of cement.
+#' 
+#' @usage
+#' data(cement)
+#' 
+#' @format A dataframe with 21 rows and 2 variables:
 #' \describe{
-#'   \item{lat}{latitude at which scallops were collected}
-#'   \item{long}{longitude at which scallops were collected}
+#'   \item{time}{curing time in days}
+#'   \item{strength}{Tensile strength in kilogram per  square centimeter }
 #' }
-#' @source \url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
+#' @source Hald, A. (1952) Statistical Theory with Engineering Applications, New York: Wiley, 451.
 "cement"
+
