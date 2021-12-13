@@ -6,8 +6,7 @@
 \alias{sm2data-package}
 \title{sm2data: Datasets for Statistical Modelling}
 \description{
-A collection of datasets for Statistical Modelling practicals run by the
-	     Department of Mathematical Sciences at Durham University.
+A collection of datasets for Statistical Modelling practicals run by the Department of Mathematical Sciences at Durham University.
 }
 \author{
 \strong{Maintainer}: Tahani Coolen-Maturi \email{tahani.maturi@durham.ac.uk}
